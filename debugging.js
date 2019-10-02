@@ -19,8 +19,9 @@ function calculateSum(){
 
 function sum(a, b){
     let sum = 0
-
-    for(i = a; i < b; i+=2){
+let chaitu = parseInt(a)
+let data = parseInt(b)
+    for(i = chaitu; i <= data; i+=1){
         sum += i
     }
 
